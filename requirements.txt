@@ -1,0 +1,43 @@
+# Veterinary Nutritional Information Classification Pipeline
+# Python 3.9+ required
+
+# =============================================================================
+# Core Dependencies
+# =============================================================================
+pandas>=1.5.0
+numpy>=1.23.0
+openpyxl>=3.0.0              # Excel file support
+
+# =============================================================================
+# Machine Learning & NLP
+# =============================================================================
+scikit-learn>=1.1.0          # Metrics, train/test split, cross-validation
+
+# spaCy and medSpaCy for rule-based classification
+spacy>=3.7.0
+medspacy>=1.0.0
+
+# =============================================================================
+# Deep Learning - Transformers (BERT)
+# =============================================================================
+torch>=2.0.0                 # PyTorch backend
+transformers>=4.30.0         # Hugging Face transformers (Bio_ClinicalBERT)
+accelerate>=0.21.0           # Training acceleration
+
+# =============================================================================
+# Hyperparameter Optimisation (Optional)
+# =============================================================================
+optuna>=3.0.0                # Bayesian hyperparameter optimisation
+
+# =============================================================================
+# Visualisation
+# =============================================================================
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# =============================================================================
+# Optional Dependencies
+# =============================================================================
+# pyspellchecker>=0.7.0      # Spell checking (disabled by default)
+# jupyter>=1.0.0             # Jupyter notebook support
+# ipywidgets>=8.0.0          # Interactive widgets for Jupyter
